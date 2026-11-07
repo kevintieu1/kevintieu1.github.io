@@ -88,10 +88,11 @@ p {
 
 .site-name {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 16px;
+  font-size: 21px;
   font-weight: 600;
   color: var(--text);
   text-decoration: none;
+  letter-spacing: -0.8px;
   white-space: nowrap;
 }
 
