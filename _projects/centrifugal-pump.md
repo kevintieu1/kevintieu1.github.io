@@ -1,6 +1,6 @@
 ---
 title: Centrifugal Pump Test Stand
-description: Design and development of an instrumented centrifugal pump test stand.
+description: The Centrifugal Pump Test Stand is an independent engineering project focused on the design, construction, and validation of an instrumented experimental test stand. The project aims to characterize centrifugal pump performance by measuring key operating parameters, including volumetric flow rate, pressure rise, rotational speed, and power consumption. Through the design and testing of interchangeable, 3D-printed impeller geometries, the project will investigate how geometric variations influence pump head, hydraulic efficiency, and overall performance.
 order: 1
 role: Lead Engineer
 status: In Progress
