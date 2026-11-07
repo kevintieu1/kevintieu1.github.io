@@ -1,4 +1,6 @@
-/* GLOBAL */
+/* ==========================================
+   GENERAL
+========================================== */
 
 * {
   box-sizing: border-box;
@@ -12,7 +14,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 64px 32px;
+  padding: 40px 32px;
   background: #fafaf8;
   color: #242424;
   line-height: 1.7;
@@ -22,11 +24,48 @@ a {
   color: inherit;
 }
 
-a:hover {
-  color: #666;
+/* ==========================================
+   NAVIGATION
+========================================== */
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 20px;
+  margin-bottom: 90px;
+  border-bottom: 1px solid #ddd;
 }
 
-/* TYPOGRAPHY */
+.site-name {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.nav-links a {
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #111;
+  text-decoration: underline;
+}
+
+/* ==========================================
+   TYPOGRAPHY
+========================================== */
 
 h1 {
   font-size: 48px;
@@ -59,30 +98,36 @@ p {
   color: #777;
 }
 
-/* NAVIGATION */
+/* ==========================================
+   INTRODUCTION
+========================================== */
 
-nav {
-  margin-bottom: 64px;
-  font-size: 14px;
+.hero {
+  margin-bottom: 80px;
 }
 
-nav a {
-  text-decoration: none;
+.intro {
+  max-width: 650px;
+  margin-top: 30px;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #444;
 }
 
-/* PROJECT GALLERY */
+/* ==========================================
+   PROJECT GALLERY
+========================================== */
 
 .projects {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 28px;
+  gap: 36px 28px;
   margin-top: 32px;
 }
 
 .project-card {
   display: block;
   padding: 0;
-  border: none;
   text-decoration: none;
 }
 
@@ -101,9 +146,9 @@ nav a {
 }
 
 .project-card p {
-  color: #777;
   font-size: 14px;
   line-height: 1.6;
+  color: #777;
   margin-bottom: 10px;
 }
 
@@ -116,7 +161,17 @@ nav a {
   text-decoration: underline;
 }
 
-/* PROJECT PAGES */
+/* ==========================================
+   INDIVIDUAL PROJECT PAGES
+========================================== */
+
+nav {
+  font-size: 14px;
+}
+
+nav a {
+  text-decoration: none;
+}
 
 main img {
   max-width: 100%;
@@ -132,7 +187,9 @@ main li {
   margin-bottom: 8px;
 }
 
-/* FOOTER */
+/* ==========================================
+   FOOTER
+========================================== */
 
 footer {
   margin-top: 100px;
@@ -142,11 +199,32 @@ footer {
   font-size: 13px;
 }
 
-/* MOBILE */
+footer p {
+  margin: 0;
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
 
 @media (max-width: 650px) {
+
   body {
-    padding: 32px 20px;
+    padding: 24px 20px;
+  }
+
+  .site-nav {
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    gap: 12px;
+  }
+
+  .nav-links {
+    gap: 14px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
   }
 
   h1 {
@@ -157,12 +235,17 @@ footer {
     margin-top: 48px;
   }
 
+  .hero {
+    margin-bottom: 60px;
+  }
+
+  .intro {
+    font-size: 15px;
+  }
+
   .projects {
     grid-template-columns: 1fr;
     gap: 36px;
   }
 
-  nav {
-    margin-bottom: 40px;
-  }
 }
