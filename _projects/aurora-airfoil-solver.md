@@ -1,6 +1,6 @@
 ---
 title: Aurora — 2D Airfoil Analysis Solver
-description: Development of a Python-based aerodynamic analysis tool combining a vortex panel method with viscous corrections.
+description: Aurora is an independently developed, Python-based computational aerodynamics tool designed to analyze the aerodynamic performance of two-dimensional airfoils. The solver implements a vortex panel method to model inviscid flow and incorporates viscous corrections to estimate aerodynamic characteristics, including lift, drag, and pitching moment coefficients. The project also investigates boundary layer transition and separation effects to improve performance predictions. Numerical results are compared against established reference data to evaluate solver accuracy and limitations across different airfoil geometries and operating conditions.
 order: 4
 image: /assets/projects/aurora-airfoil-solver/01_geometry_comparison.png
 status: In Progress
