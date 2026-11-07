@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title }} | Kevin Tieu</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 24px;
+      background: #fafaf8;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 40px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 8px;
+    }
+
+    a {
+      color: #333;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    nav {
+      margin-bottom: 50px;
+    }
+
+    .subtitle {
+      color: #666;
+    }
+
+    footer {
+      margin-top: 80px;
+      padding: 20px 0;
+      border-top: 1px solid #ddd;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="/">← Back to Portfolio</a>
+  </nav>
+
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p class="subtitle">{{ page.description }}</p>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    Kevin Tieu | Engineering Portfolio
+  </footer>
+
+</body>
+</html>
