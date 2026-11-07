@@ -72,16 +72,32 @@ compare results across multiple airfoil geometries.
 
 ## Results and Validation
 
-The solver is evaluated through comparisons
-with available reference aerodynamic data.
+### Lift Curve
 
-Validation focuses on examining differences
-between predicted and reference aerodynamic
-coefficients across a range of angles of attack.
+The lift curve describes the variation in lift
+coefficient with angle of attack.
 
-*Representative pressure distributions, drag
-polars, lift curves, and validation results
-will be added.*
+![Lift Curve]({{ '/assets/projects/aurora-airfoil-solver/03_cl_alpha.png' | relative_url }})
+
+*Figure 2. Lift coefficient as a function of angle of attack.*
+
+### Pressure Coefficient Distribution
+
+The pressure coefficient distribution illustrates
+the aerodynamic loading across the airfoil surface.
+
+![Pressure Distribution]({{ '/assets/projects/aurora-airfoil-solver/02_cp_distribution.png' | relative_url }})
+
+*Figure 4. Surface pressure coefficient distribution.*
+
+### Solver Validation
+
+Aurora predictions are compared against reference
+aerodynamic data to assess the solver's accuracy.
+
+![Solver Validation]({{ '/assets/projects/aurora-airfoil-solver/01_cl_alpha_validation.png' | relative_url }})
+
+*Figure 5. Comparison of Aurora predictions against reference data.*
 
 ## Challenges and Lessons Learned
 
