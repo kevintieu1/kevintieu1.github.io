@@ -2,6 +2,7 @@
 title: NASA L'SPACE Program Mission Concept Academy, Lunar Rover Design
 description: Mechanical design of a lunar exploration rover for operations near permanently shadowed regions.
 order: 3
+image: /assets/projects/lspace-lunar-rover/cadrendering.png
 role: Payload Mechanical Engineer
 status: Completed
 tools: CAD, Mechanical Design, Engineering Analysis
@@ -21,6 +22,10 @@ capable of navigating lunar terrain while satisfying
 mission-level constraints on mass, dimensions,
 mobility, and deployment.
 
+![L'SPACE Organizational Chart]({{ '/assets/projects/lspace-lunar-rover/orgchart.png' | relative_url }})
+
+*Figure 3. L'SPACE Mission Concept Academy organizational chart.*
+
 ## Engineering Objectives
 
 The rover design was developed around several
@@ -32,39 +37,45 @@ key mission requirements:
 - Ability to negotiate slopes up to 15 degrees.
 - Deployment within 30 minutes.
 
+![Mission Requirements]({{ '/assets/projects/lspace-lunar-rover/requirements.png' | relative_url }})
+
+*Figure 1. System-level requirements for the lunar rover.*
+
 ## Engineering Approach
 
 ### Chassis and Structural Design
 
-Contributed to the mechanical architecture of the
-rover chassis, considering packaging constraints,
-structural integration, and subsystem mounting.
+Describe the chassis configuration, structural
+considerations, and mechanical integration.
+
+![Rover Chassis]({{ '/assets/projects/lspace-lunar-rover/cadrendering.png' | relative_url }})
+
+*Figure 2. CAD model of the lunar rover.*
 
 ### Mobility System
 
-Worked on the rover's rocker-bogie suspension
-concept to support mobility over uneven lunar terrain.
+Describe the rocker-bogie suspension and
+its intended mobility characteristics.
 
-### Subsystem Integration
+![Rocker-Bogie Suspension]({{ '/assets/projects/lspace-lunar-rover/suspension.png' | relative_url }})
 
-Developed mechanical interfaces and mounting
-considerations for rover subsystems, including
-guidance, navigation, and control components.
+*Figure 3. Rocker-bogie suspension (left side).*
 
 ## Results and Validation
 
 The project produced a conceptual rover design
 developed around the established mission requirements.
 
-*CAD renders, mechanical drawings, and supporting
-engineering analyses will be added.*
-
 ## Challenges and Lessons Learned
 
-*Detailed engineering tradeoffs and design lessons
-will be documented here.*
+One of the most significant challenges during the project was responding to a mission descope that introduced stricter mass and packaging constraints. The rover's maximum stowed envelope was reduced from 1.5 × 1.5 × 2.0 m to 1.5 × 1.5 × 1.0 m, while its mass allowance decreased from 250 kg to 175 kg.
+
+These changes required us to reevaluate the rover's mechanical architecture and prioritize critical science instruments while preserving essential mobility and operational capabilities. We had to consider tradeoffs between scientific objectives, subsystem packaging, structural design, and overall system functionality.
+
+This experience reinforced the importance of requirements-driven engineering, design adaptability, and systems-level tradeoff analysis. It demonstrated that successful engineering design is not simply about maximizing individual subsystem performance, but about making informed compromises to achieve mission objectives within evolving constraints.
 
 ## Technical Documentation
 
-*Supporting CAD images, design documentation,
-and technical reports will be added.*
+![L'SPACE MCA Final PDR]({{ '/assets/projects/lspace-lunar-rover/pdrfinal.png' | relative_url }})
+
+*Figure 4. L'SPACE Mission Concept Academy Preliminary Design Review (PDR).*
