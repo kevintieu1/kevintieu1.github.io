@@ -372,3 +372,30 @@ footer p {
   font-weight: 500;
   letter-spacing: 0.3px;
 }
+
+/* PROJECT STATUS ICONS */
+
+.project-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  font-size: 15px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.status-completed .status-icon {
+  color: #26834a;
+}
+
+.status-progress .status-icon {
+  color: #ca921e;
+}
