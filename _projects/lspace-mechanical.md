@@ -2,7 +2,7 @@
 title: NASA L'SPACE Program Mission Concept Academy, Lunar Rover Design
 description: Mechanical design of a lunar exploration rover for operations near permanently shadowed regions.
 order: 3
-image: /assets/projects/lspace-lunar-rover/cadrendering.png
+image: /assets/projects/lspace-mechanical/cadrendering.png
 role: Payload Mechanical Engineer
 status: Completed
 tools: CAD, Mechanical Design, Engineering Analysis
