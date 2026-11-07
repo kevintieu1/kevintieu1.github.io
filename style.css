@@ -6,11 +6,11 @@
 
 :root {
   --background: #f8f9f7;
-  --surface: #e8eeec;
-  --text: #233a47;
-  --muted: #718389;
-  --border: #dce5e5;
-  --accent: #427e82;
+  --surface: #eeeae7;
+  --text: #292625;
+  --muted: #756e6b;
+  --border: #e7dfdc;
+  --accent: #722f37;
   --green: #2d8055;
   --amber: #ba871b;
 }
@@ -121,8 +121,8 @@ p {
 .hero {
   padding: 55px 40px;
   margin-bottom: 65px;
-  background: #eff4f3;
-  border: 1px solid #e3ebea;
+  background: #f5eded;
+  border: 1px solid #e7dfdc;
   border-radius: 8px;
   text-align: center;
 }
@@ -134,7 +134,7 @@ p {
 .intro {
   max-width: 650px;
   margin: 0 auto;
-  color: #455961;
+  color: #514947;
   font-size: 16px;
   line-height: 1.8;
 }
@@ -176,7 +176,7 @@ p {
 }
 
 .project-placeholder span {
-  color: #8ca6a4;
+  color: #9b8b86;
   font-size: 13px;
   font-weight: 500;
 }
