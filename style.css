@@ -349,3 +349,26 @@ footer p {
     margin-top: 40px;
   }
 }
+
+/* PROJECT PLACEHOLDER */
+
+.project-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  padding: 24px;
+  margin-bottom: 16px;
+  background: #eeeeeb;
+  border: 1px solid #e5e5e1;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.project-placeholder span {
+  color: #777;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
