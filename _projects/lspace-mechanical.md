@@ -1,6 +1,6 @@
 ---
 title: NASA L'SPACE Program Mission Concept Academy, Lunar Rover Design
-description: NASA’s L’SPACE Mission Concept Academy (MCA) is a NASA-funded workforce development program designed to provide students with hands-on experience in the NASA mission development lifecycle. Working within a multidisciplinary engineering team, I contributed to the development of a customer-defined lunar exploration mission focused on conducting scientific investigations in the Moon’s permanently shadowed regions (PSRs). The program simulated NASA's mission formulation process, giving me experience in systems engineering, technical design, formulation of mission and system requirements, and cross-disciplinary collaboration.
+description: NASA's [L'SPACE Mission Concept Academy](https://www.lspace.asu.edu/) is a NASA-funded workforce development program designed to provide students with hands-on experience in the NASA mission development lifecycle. Working within a multidisciplinary engineering team, I contributed to the development of a customer-defined lunar exploration mission focused on conducting scientific investigations in the Moon’s permanently shadowed regions (PSRs). The program simulated NASA's mission formulation process, giving me experience in systems engineering, technical design, formulation of mission and system requirements, and cross-disciplinary collaboration.
 order: 3
 image: /assets/projects/lspace-mechanical/cadrendering.png
 role: Payload Mechanical Engineer
