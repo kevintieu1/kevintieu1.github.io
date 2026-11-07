@@ -2,6 +2,7 @@
 title: Centrifugal Pump Test Stand
 description: Design and development of an instrumented centrifugal pump test stand.
 order: 1
+role: Lead Engineer
 status: In Progress
 tools: CAD, Python, 3D Printing
 focus: Test Engineering and Fluid Mechanics
