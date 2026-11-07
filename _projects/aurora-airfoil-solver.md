@@ -88,7 +88,7 @@ the aerodynamic loading across the airfoil surface.
 
 ![Pressure Distribution]({{ '/assets/projects/aurora-airfoil-solver/02_cp_distribution.png' | relative_url }})
 
-*Figure 4. Surface pressure coefficient distribution.*
+*Figure 3. Surface pressure coefficient distribution.*
 
 ### Solver Validation
 
@@ -97,7 +97,7 @@ aerodynamic data to assess the solver's accuracy.
 
 ![Solver Validation]({{ '/assets/projects/aurora-airfoil-solver/01_cl_alpha_validation.png' | relative_url }})
 
-*Figure 5. Comparison of Aurora predictions against reference data.*
+*Figure 4. Comparison of Aurora predictions against reference data.*
 
 ## Challenges and Lessons Learned
 
