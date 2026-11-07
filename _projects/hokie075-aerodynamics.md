@@ -1,6 +1,6 @@
 ---
 title: Hokie 0.75 Trajectory and Aerodynamics
-description: Aerodynamic analysis, computational fluid dynamics, and flight performance modeling for a spaceshot attempt vehicle by the Orbital Launch Vehicle Team, an undergraduate rocketry team at Virginia Tech.
+description: Hokie 0.75 is a 2 stage, active coast, spaceshot vehicle developed by Virginia Tech's Orbital Launch Vehicle Team (OLVT), with the objective of reaching an altitude of approximately 110 kilometers and demonstrating suborbital spaceflight capabilities. As the Trajectory and Aerodynamics Lead, I oversee aerodynamic characterization and flight performance analysis, including computational fluid dynamics (CFD), aerodynamic coefficient modeling, vehicle stability assessment, and trajectory simulation. The project integrates aerodynamic analysis with propulsion, structures, and flight dynamics to evaluate vehicle performance throughout its planned flight envelope.
 order: 2
 role: Lead Trajectory and Aerodynamics Engineer
 status: In Progress
