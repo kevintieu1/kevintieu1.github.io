@@ -22,9 +22,13 @@ capable of navigating lunar terrain while satisfying
 mission-level constraints on mass, dimensions,
 mobility, and deployment.
 
-![L'SPACE Organizational Chart]({{ '/assets/projects/lspace-lunar-rover/orgchart.png' | relative_url }})
-
-*Figure 3. L'SPACE Mission Concept Academy organizational chart.*
+<iframe
+  src="{{ '/assets/projects/lspace-mechanical/orgchart.pdf' | relative_url }}"
+  width="100%"
+  height="600"
+  style="border: 1px solid #e7dfdc; border-radius: 8px;"
+  title="L'SPACE MCA Team 10 Organizational Chart">
+</iframe>
 
 ## Engineering Objectives
 
@@ -37,7 +41,7 @@ key mission requirements:
 - Ability to negotiate slopes up to 15 degrees.
 - Deployment within 30 minutes.
 
-![Mission Requirements]({{ '/assets/projects/lspace-lunar-rover/requirements.png' | relative_url }})
+![Mission Requirements]({{ '/assets/projects/lspace-mechanical/requirements.png' | relative_url }})
 
 *Figure 1. System-level requirements for the lunar rover.*
 
@@ -48,7 +52,7 @@ key mission requirements:
 Describe the chassis configuration, structural
 considerations, and mechanical integration.
 
-![Rover Chassis]({{ '/assets/projects/lspace-lunar-rover/cadrendering.png' | relative_url }})
+![Rover Chassis]({{ '/assets/projects/lspace-mechanical/cadrendering.png' | relative_url }})
 
 *Figure 2. CAD model of the lunar rover.*
 
@@ -57,7 +61,7 @@ considerations, and mechanical integration.
 Describe the rocker-bogie suspension and
 its intended mobility characteristics.
 
-![Rocker-Bogie Suspension]({{ '/assets/projects/lspace-lunar-rover/suspension.png' | relative_url }})
+![Rocker-Bogie Suspension]({{ '/assets/projects/lspace-mechanical/suspension.png' | relative_url }})
 
 *Figure 3. Rocker-bogie suspension (left side).*
 
@@ -76,6 +80,10 @@ This experience reinforced the importance of requirements-driven engineering, de
 
 ## Technical Documentation
 
-![L'SPACE MCA Final PDR]({{ '/assets/projects/lspace-lunar-rover/pdrfinal.png' | relative_url }})
-
-*Figure 4. L'SPACE Mission Concept Academy Preliminary Design Review (PDR).*
+<iframe
+  src="{{ '/assets/projects/lspace-mechanical/pdrfinal.pdf' | relative_url }}"
+  width="100%"
+  height="600"
+  style="border: 1px solid #e7dfdc; border-radius: 8px;"
+  title="L'SPACE Preliminary Design Review">
+</iframe>
