@@ -411,3 +411,13 @@ footer p {
     transition: none;
   }
 }
+
+/* FIGURE CAPTIONS */
+
+.project-content img + p {
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
