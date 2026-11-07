@@ -54,11 +54,24 @@
       {% endif %}
 
       {% if page.status %}
-      <div>
-        <span class="meta-label">STATUS</span>
-        <p>{{ page.status }}</p>
-      </div>
-      {% endif %}
+<div>
+  <span class="meta-label">STATUS</span>
+
+  <p class="project-status
+    {% if page.status == 'Completed' %}status-completed
+    {% elsif page.status == 'In Progress' %}status-progress
+    {% endif %}">
+
+    {% if page.status == 'Completed' %}
+      <span class="status-icon" aria-hidden="true">✓</span>
+    {% elsif page.status == 'In Progress' %}
+      <span class="status-icon" aria-hidden="true">◷</span>
+    {% endif %}
+
+    {{ page.status }}
+  </p>
+</div>
+{% endif %}
 
       {% if page.tools %}
       <div>
