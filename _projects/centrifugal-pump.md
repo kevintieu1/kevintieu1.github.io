@@ -1,38 +1,55 @@
 ---
 title: Centrifugal Pump Test Stand
-description: Design and development of an instrumented centrifugal pump test stand.
-role: Lead Engineer
+description: Design and development of an instrumented centrifugal pump test stand for experimental performance characterization.
 status: In Progress
 tools: CAD, Python, 3D Printing
-focus: Fluid Mechanics and Experimental Validation
+focus: Test Engineering and Fluid Mechanics
 ---
 
 ## Overview
 
-This project focuses on designing, constructing, and
-validating an instrumented centrifugal pump test stand
-to investigate the performance of different impeller
-geometries.
+This independent engineering project focuses on
+the design, development, and validation of an
+instrumented centrifugal pump test stand.
 
-## Project Objectives
+The objective is to experimentally characterize
+pump performance and investigate how changes in
+impeller geometry affect hydraulic performance.
 
-- Design and manufacture interchangeable pump impellers.
-- Develop an instrumented test stand.
-- Measure flow rate, pressure rise, and pump performance.
-- Compare experimental results across impeller designs.
+## Engineering Objectives
 
-## Engineering Approach
+- Design and manufacture interchangeable impellers.
+- Develop an instrumented pump test stand.
+- Measure flow rate and pressure rise.
+- Calculate hydraulic power and pump efficiency.
+- Compare experimental performance across impeller geometries.
 
-*Work in progress.*
+## Design and Methodology
 
-## Experimental Setup
+### System Requirements
 
-*Work in progress.*
+*Documentation in progress.*
 
-## Results and Discussion
+### Mechanical Design
 
-*Work in progress.*
+*Documentation in progress.*
+
+### Instrumentation and Data Acquisition
+
+*Documentation in progress.*
+
+### Test Planning and Procedures
+
+*Documentation in progress.*
+
+## Results and Validation
+
+*Experimental testing has not yet been completed.*
+
+## Challenges and Lessons Learned
+
+*To be updated as the project progresses.*
 
 ## Technical Documentation
 
-Documentation will be added as the project progresses.
+*Supporting documentation will be added as it becomes available.*
