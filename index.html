@@ -52,11 +52,15 @@
              href="{{ project.url | relative_url }}">
 
             {% if project.image %}
-              <img
-                class="project-image"
-                src="{{ project.image | relative_url }}"
-                alt="{{ project.title }}">
-            {% endif %}
+  <img
+    class="project-image"
+    src="{{ project.image | relative_url }}"
+    alt="{{ project.title }}">
+{% else %}
+  <div class="project-placeholder">
+    <span>{{ project.focus | default: "Engineering Project" }}</span>
+  </div>
+{% endif %}
 
             <h3>{{ project.title }}</h3>
 
