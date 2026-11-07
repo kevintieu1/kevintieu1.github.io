@@ -1,6 +1,7 @@
 ---
 title: Centrifugal Pump Test Stand
 description: Design and development of an instrumented centrifugal pump test stand.
+image: /pump.png
 ---
 
 ## Overview
