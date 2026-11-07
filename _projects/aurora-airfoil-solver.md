@@ -42,6 +42,10 @@ Airfoil geometries are discretized into a series
 of surface panels to approximate the airfoil
 boundary and establish the computational domain.
 
+![Airfoil Geometry]({{ '/assets/projects/aurora-airfoil-solver/01_geometry.png' | relative_url }})
+
+*Figure 1. Airfoil geometry used in Aurora.*
+
 ### Vortex Panel Method
 
 The solver uses a vortex panel formulation to
