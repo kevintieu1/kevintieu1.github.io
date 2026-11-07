@@ -7,26 +7,84 @@
   <title>{{ page.title }} | Kevin Tieu</title>
 
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
-  
 </head>
 
 <body>
 
-  <nav>
-    <a href="/">← Back to Portfolio</a>
+  <!-- NAVIGATION -->
+  <nav class="site-nav">
+    <a class="site-name" href="/">Kevin Tieu</a>
+
+    <div class="nav-links">
+      <a href="/#projects">Projects</a>
+      <a href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+      <a href="https://linkedin.com/in/kevtieu" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/kevintieu1" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
   </nav>
 
-  <header>
-    <h1>{{ page.title }}</h1>
-    <p class="subtitle">{{ page.description }}</p>
-  </header>
+  <main class="project-page">
 
-  <main>
-    {{ content }}
+    <a class="back-link" href="/#projects">&larr; Back to Projects</a>
+
+    <!-- PROJECT HEADER -->
+    <header class="project-header">
+
+      <h1>{{ page.title }}</h1>
+
+      <p class="subtitle">{{ page.description }}</p>
+
+      {% if page.image %}
+        <img
+          class="project-hero"
+          src="{{ page.image | relative_url }}"
+          alt="{{ page.title }}">
+      {% endif %}
+
+    </header>
+
+    <!-- PROJECT DETAILS -->
+    <div class="project-meta">
+
+      {% if page.role %}
+      <div>
+        <span class="meta-label">ROLE</span>
+        <p>{{ page.role }}</p>
+      </div>
+      {% endif %}
+
+      {% if page.status %}
+      <div>
+        <span class="meta-label">STATUS</span>
+        <p>{{ page.status }}</p>
+      </div>
+      {% endif %}
+
+      {% if page.tools %}
+      <div>
+        <span class="meta-label">TOOLS</span>
+        <p>{{ page.tools }}</p>
+      </div>
+      {% endif %}
+
+      {% if page.focus %}
+      <div>
+        <span class="meta-label">FOCUS</span>
+        <p>{{ page.focus }}</p>
+      </div>
+      {% endif %}
+
+    </div>
+
+    <!-- PROJECT CONTENT -->
+    <article class="project-content">
+      {{ content }}
+    </article>
+
   </main>
 
   <footer>
-    Kevin Tieu | Engineering Portfolio
+    <p>Kevin Tieu &copy; {{ site.time | date: '%Y' }}</p>
   </footer>
 
 </body>
