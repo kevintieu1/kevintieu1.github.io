@@ -45,7 +45,8 @@
 
       <div class="projects">
 
-        {% for project in site.projects %}
+        {% assign sorted_projects = site.projects | sort: "order" %}
+        {% for project in sorted_projects %}
 
           <a class="project-card"
              href="{{ project.url | relative_url }}">
