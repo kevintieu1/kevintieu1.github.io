@@ -414,10 +414,15 @@ footer p {
 
 /* FIGURE CAPTIONS */
 
-.project-content img + p {
+.project-content p:has(> img) {
   text-align: center;
-  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.project-content p:has(> img) + p {
+  text-align: center;
   color: var(--muted);
-  margin-top: -15px;
+  font-size: 13px;
+  margin-top: 0;
   margin-bottom: 30px;
 }
