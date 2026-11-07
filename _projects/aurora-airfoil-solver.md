@@ -2,6 +2,7 @@
 title: Aurora — 2D Airfoil Analysis Solver
 description: Development of a Python-based aerodynamic analysis tool combining a vortex panel method with viscous corrections.
 order: 4
+image: /assets/projects/aurora-airfoil-solver/01_geometry_comparison.png
 status: In Progress
 tools: Python, NumPy, Matplotlib, Numerical Methods
 focus: Computational Aerodynamics and Engineering Software
