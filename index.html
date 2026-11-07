@@ -1,67 +1,81 @@
 ---
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Kevin Tieu | Engineering Portfolio</title>
 
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
-
 </head>
 
 <body>
-  <header>
+
+  <!-- NAVIGATION -->
+  <nav class="site-nav">
+    <a class="site-name" href="/">Kevin Tieu</a>
+
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+      <a href="https://linkedin.com/in/kevtieu" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/kevintieu1" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+  </nav>
+
+  <!-- INTRODUCTION -->
+  <header class="hero">
     <h1>Kevin Tieu</h1>
     <p class="subtitle">Aerospace Engineering</p>
+
+    <p class="intro">
+      I am an aerospace engineering student interested
+      in propulsion, aerodynamics, mechanical design,
+      and test engineering.
+    </p>
   </header>
 
   <main>
-    <section>
-      <h2>About Me</h2>
-      <p>
-        I am an aerospace engineering student interested
-        in propulsion, aerodynamics,
-        and test engineering.
-      </p>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Selected Projects</h2>
+
+      <div class="projects">
+
+        {% for project in site.projects %}
+
+          <a class="project-card"
+             href="{{ project.url | relative_url }}">
+
+            {% if project.image %}
+              <img
+                class="project-image"
+                src="{{ project.image | relative_url }}"
+                alt="{{ project.title }}">
+            {% endif %}
+
+            <h3>{{ project.title }}</h3>
+
+            <p>{{ project.description }}</p>
+
+            <span>View Project &rarr;</span>
+
+          </a>
+
+        {% endfor %}
+
+      </div>
     </section>
 
-    <section>
-  <h2>Selected Projects</h2>
-
-  <div class="projects">
-    {% for project in site.projects %}
-      <a class="project-card" href="{{ project.url | relative_url }}">
-
-  {% if project.image %}
-    <img class="project-image"
-         src="{{ project.image | relative_url }}"
-         alt="{{ project.title }}">
-  {% endif %}
-
-  <h3>{{ project.title }}</h3>
-  <p>{{ project.description }}</p>
-  <span>View Project →</span>
-
-</a>
-    {% endfor %}
-  </div>
-
-</section>
-
-    <section>
-      <h2>Contact</h2>
-      <p>
-        <a href="https://github.com/kevintieu1">GitHub</a>
-        <a href="https://linkedin.com/in/kevtieu">LinkedIn</a>
-      </p>
-    </section>
   </main>
 
+  <!-- FOOTER -->
   <footer>
-    Kevin Tieu | Engineering Portfolio
+    <p>Kevin Tieu &copy; {{ site.time | date: '%Y' }}</p>
   </footer>
+
 </body>
 </html>
