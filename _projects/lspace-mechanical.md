@@ -1,5 +1,5 @@
 ---
-title: NASA L'SPACE Program Mission Concept Academy, Lunar Rover Design
+title: NASA L'SPACE Program Mission Concept Academy
 description: >-
   NASA's [L'SPACE Mission Concept Academy](https://www.lspace.asu.edu/) is a NASA-funded workforce development program designed to provide students with hands-on experience in the NASA mission development lifecycle. Working within a multidisciplinary engineering team, I contributed to the development of a customer-defined lunar exploration mission focused on conducting scientific investigations in the Moon's permanently shadowed regions (PSRs). The program simulated NASA's mission formulation process, providing experience in systems engineering, technical design, mission and system requirements development, and cross-disciplinary collaboration.
 order: 3
