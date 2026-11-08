@@ -117,26 +117,67 @@ p {
 /* ==========================================
    HOMEPAGE
 ========================================== */
-
 .hero {
-  padding: 55px 40px;
+  padding: 45px;
   margin-bottom: 65px;
   background: #f5eded;
-  border: 1px solid #e7dfdc;
+  border: 1px solid var(--border);
   border-radius: 8px;
-  text-align: center;
+  text-align: left;
 }
 
-.hero h1 {
-  margin-bottom: 20px;
+.hero-profile {
+  display: flex;
+  align-items: center;
+  gap: 35px;
 }
 
-.intro {
-  max-width: 650px;
-  margin: 0 auto;
-  color: #514947;
+.hero-headshot {
+  width: 165px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.hero-details h1 {
+  margin-bottom: 10px;
+}
+
+.hero-major {
   font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.hero-school {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.hero-about {
+  margin: 28px 0 0;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  font-size: 15px;
   line-height: 1.8;
+  color: #514947;
+}
+
+@media (max-width: 650px) {
+  .hero {
+    padding: 28px;
+  }
+
+  .hero-profile {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .hero-headshot {
+    width: 140px;
+    height: 170px;
+  }
 }
 
 /* ==========================================
