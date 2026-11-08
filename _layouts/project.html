@@ -32,7 +32,7 @@
 
       <h1>{{ page.title }}</h1>
 
-      <p class="subtitle">{{ page.description }}</p>
+      <div class="subtitle">{{ page.description | markdownify }}</div>
 
       {% if page.image %}
         <img
@@ -99,6 +99,5 @@
   <footer>
     <p>Kevin Tieu &copy; {{ site.time | date: '%Y' }}</p>
   </footer>
-<div class="subtitle">{{ page.description | markdownify }}</div>
 </body>
 </html>
